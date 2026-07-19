@@ -110,8 +110,8 @@ tetris.exe
 
 This project was developed collaboratively as part of a course project.
 
-| Name |
-|------|
-| Sejal Patel |
-| Prayag Kachhia |
-| Rashi Patel |
+| Name | Student ID |
+|------|------------|
+| Sejal Patel | 202401155 |
+| Prayag Kachhia | 202401168 |
+| Rashi Patel | 202401154 |
