@@ -1,43 +1,120 @@
-# Tetris Console Game
+# 🎮 Console-Based Tetris Game (C++)
 
-This is a simple Tetris-like game implemented in C++ using the Windows Console API. The game features different Tetromino shapes, real-time movement, rotation, and a scoring system.
+A console-based implementation of the classic **Tetris** game developed in **C++** using the **Windows Console API**. The game features real-time Tetromino movement, rotation, line clearing, score tracking, session-based high score tracking, and color-coded rendering within the Windows console.
 
-## Features
-- **Classic Tetris Gameplay**: Move and rotate falling Tetrominoes to clear lines.
-- **Real-time Controls**: Supports arrow keys and WASD for movement and rotation.
-- **Hard Drop**: Instantly drop the Tetromino using the spacebar.
-- **Scoring System**: Earn points by clearing lines.
-- **High Score Tracking**: Keeps track of the highest score within a session.
-- **Color-coded Tetrominoes**: Each Tetromino is displayed in a unique color.
+---
 
-## Controls
-- **Arrow Keys / WASD**: Move and rotate Tetrominoes.
-- **Spacebar**: Hard drop the Tetromino.
-- **R**: Restart after game over.
-- **X**: Exit the game.
-## Screenshot
-Link - "https://github.com/prayag-kachhia/Tetris-DS-Lab/blob/main/Screenshot%202025-03-27%20151845.png"
+## ✨ Features
 
-## Requirements
-- Windows OS
-- C++ Compiler (e.g., MinGW, MSVC)
-- Console with color support
+- 🎮 Classic Tetris gameplay with all **7 Tetromino** shapes
+- ⌨️ Real-time movement and rotation using **Arrow Keys** or **WASD**
+- ⚡ Hard Drop functionality using the **Spacebar**
+- 🧹 Automatic line clearing with score updates
+- 🏆 Session-based high score tracking
+- 🎨 Color-coded Tetromino rendering using the Windows Console API
+- 🔄 Restart or exit option after game over
 
-## How to Compile and Run
-1. Open a terminal or command prompt.
-2. Compile the program using a C++ compiler:
-   ```sh
-   g++ tetris.cpp -o tetris.exe
-   ```
-3. Run the executable:
-   ```sh
-   tetris.exe
-   ```
+---
 
-## Future Enhancements
-- Implementing a pause feature.
-- Adding music and sound effects.
-- Implementing different difficulty levels.
+## 🛠️ Technologies Used
 
-Enjoy playing the Tetris Console Game!
+- C++
+- Windows Console API (`windows.h`)
+- Standard Template Library (STL)
+- `conio.h`
 
+---
+
+## 🎮 Controls
+
+| Key | Action |
+|------|--------|
+| ← / A | Move Left |
+| → / D | Move Right |
+| ↓ / S | Move Down |
+| ↑ / W | Rotate Tetromino |
+| Space | Hard Drop |
+| R | Restart Game |
+| X | Exit Game |
+
+---
+
+## 📸 Screenshot
+
+<p align="center">
+  <img src="Screenshots/gameplay.png" alt="Gameplay Screenshot" width="500">
+</p>
+
+---
+
+## 📂 Project Structure
+
+```text
+Tetris-Console-Game/
+│
+├── Screenshots/
+│   └── gameplay.png
+│
+├── tetris.cpp
+└── README.md
+```
+
+---
+
+## ⚙️ Requirements
+
+- Windows Operating System
+- C++ Compiler (MinGW or MSVC)
+- Windows Console (Command Prompt, PowerShell, or Windows Terminal)
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SejalPatel01/Tetris-DS-Lab.git
+```
+
+### 2. Move into the project directory
+
+```bash
+cd Tetris-DS-Lab
+```
+
+### 3. Compile the program
+
+```bash
+g++ tetris.cpp -o tetris.exe
+```
+
+### 4. Run the executable
+
+```bash
+tetris.exe
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- ⏸️ Pause and Resume functionality
+- 🎵 Background music and sound effects
+- 📈 Multiple difficulty levels
+- 👀 Next Tetromino preview
+- 💾 Persistent high score using file storage
+- 🔄 Hold Tetromino feature
+
+---
+
+## 👥 Team
+
+This project was developed collaboratively as part of a course project.
+
+| Name | Student ID |
+|------|------------|
+| Sejal Patel | 202301001 |
+| Prayag Kachhia | 202301025 |
+| Member Name | 202301045 |
+| Member Name | 202301067 |
