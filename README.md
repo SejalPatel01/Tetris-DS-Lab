@@ -1,6 +1,6 @@
 # 🎮 Console-Based Tetris Game (C++)
 
-A console-based implementation of the classic **Tetris** game developed in **C++** using the **Windows Console API**. The game features real-time Tetromino movement, rotation, line clearing, score tracking, session-based high score tracking, and color-coded rendering within the Windows console.
+A console-based implementation of the classic **Tetris** game developed as part of a **course project** using **C++** and the **Windows Console API**. The project was built collaboratively in a team and features real-time Tetromino movement, rotation, line clearing, score tracking, session-based high score tracking, and color-coded rendering within the Windows console.
 
 ---
 
@@ -42,7 +42,7 @@ A console-based implementation of the classic **Tetris** game developed in **C++
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="Screenshots/gameplay.png" alt="Gameplay Screenshot" width="500">
+  <img src="gameplay.png" alt="Gameplay Screenshot" width="500">
 </p>
 
 ---
@@ -50,13 +50,11 @@ A console-based implementation of the classic **Tetris** game developed in **C++
 ## 📂 Project Structure
 
 ```text
-Tetris-Console-Game/
+Tetris-DS-Lab/
 │
-├── Screenshots/
-│   └── gameplay.png
-│
-├── tetris.cpp
-└── README.md
+├── README.md
+├── gameplay.png
+└── tetris.cpp
 ```
 
 ---
